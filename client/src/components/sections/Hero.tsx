@@ -76,12 +76,14 @@ export default function Hero() {
                 animation: 'fadeInUp 1s ease-out 0.6s both'
               }}
             >
-              <button
-                onClick={() => scrollToSection('pricing')}
-                className="px-8 py-4 bg-green-600 text-white font-bold rounded hover:bg-green-700 transition-all shadow-lg hover:shadow-xl"
+              <a
+                href="https://course.takayamaya.ru/business"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-4 bg-green-600 text-white font-bold rounded hover:bg-green-700 transition-all shadow-lg hover:shadow-xl"
               >
                 Занять место на 16 мая →
-              </button>
+              </a>
             </div>
 
             {/* Event strip */}

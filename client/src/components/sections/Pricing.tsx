@@ -85,16 +85,18 @@ export default function Pricing() {
 
 
 
-          <button
-            onClick={scrollToRegister}
-            className="w-full py-4 px-6 bg-green-600 text-white font-bold text-lg rounded hover:bg-green-700 transition-all"
+          <a
+            href="https://course.takayamaya.ru/business"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-center py-4 px-6 bg-green-600 text-white font-bold text-lg rounded hover:bg-green-700 transition-all"
             style={{
               boxShadow: '0 0 20px rgba(34, 197, 94, 0.3)',
               animation: 'bounceIn 0.8s ease-out 1s both'
             }}
           >
             Занять место на 16 мая →
-          </button>
+          </a>
         </div>
       </div>
 

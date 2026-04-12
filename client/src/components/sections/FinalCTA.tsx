@@ -53,15 +53,17 @@ export default function FinalCTA() {
 
 
         <div className="text-center fade-in-up" style={{ animationDelay: '0.3s' }}>
-          <button
-            onClick={scrollToRegister}
-            className="px-8 py-4 bg-green-600 text-white font-bold text-lg rounded hover:bg-green-700 transition-all shadow-lg hover:shadow-xl"
+          <a
+            href="https://course.takayamaya.ru/business"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 bg-green-600 text-white font-bold text-lg rounded hover:bg-green-700 transition-all shadow-lg hover:shadow-xl"
             style={{
               boxShadow: '0 0 20px rgba(34, 197, 94, 0.3)'
             }}
           >
             Занять место на 16 мая →
-          </button>
+          </a>
         </div>
       </div>
     </section>
