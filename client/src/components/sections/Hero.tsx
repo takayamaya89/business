@@ -55,7 +55,7 @@ export default function Hero() {
               }}
             >
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                За <span className="text-green-600">7 часов</span> — рабочая <span className="text-green-600">AI-система</span>, которая приносит <span className="text-green-600">заявки и освобождает время</span>
+                За <span className="text-green-600">8 часов</span> — рабочая <span className="text-green-600">AI-система</span>, которая приносит <span className="text-green-600">заявки и освобождает время</span>
               </h1>
             </div>
 
@@ -95,7 +95,7 @@ export default function Hero() {
             >
               {[
                 { label: 'Дата', value: '16 мая' },
-                { label: 'Формат', value: 'Офлайн · 7 часов' },
+                { label: 'Формат', value: 'Офлайн · 8 часов (с перерывом)' },
                 { label: 'Для кого', value: 'Предприниматели с командой' },
                 { label: 'Результат', value: 'Рабочая система' }
               ].map((item, idx) => (

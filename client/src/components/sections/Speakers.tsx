@@ -67,7 +67,7 @@ export default function Speakers() {
 
             {/* Name and role */}
             <h3 className="text-2xl font-bold text-foreground mb-1">
-              Reactor Club
+              REACTOR CLUB
             </h3>
             <p className="text-accent-light font-semibold mb-4">
               Бизнес-клуб для предпринимателей нового времени
@@ -75,7 +75,7 @@ export default function Speakers() {
 
             {/* Bio */}
             <p className="text-muted mb-6 leading-relaxed">
-              Reactor Club — это сообщество предпринимателей, которые не ждут,
+              REACTOR CLUB — это сообщество предпринимателей, которые не ждут,
               пока рынок изменится. Они меняют рынок сами.
               Организуем практические мероприятия, которые дают не теорию,
               а конкретные инструменты роста.
