@@ -34,7 +34,7 @@ export default function Speaker() {
             }}
           >
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663142814497/Gf8jYSBvKjeB3PqJpdkLs8/speaker-red-jacket-DMxXecTtLqjf2RhGXYWxwa.png" 
+              src="/speaker-red.png" 
               alt="Майя Галицкая" 
               className="max-w-sm md:max-w-md w-full h-auto drop-shadow-2xl"
               style={{
