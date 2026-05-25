@@ -33,10 +33,10 @@ export default function Protocol() {
   ];
 
   return (
-    <section id="protocol" className="py-20 md:py-32 bg-white section-bg-animated relative">
+    <section id="protocol" className="py-20 md:py-32 bg-background section-bg-animated relative">
       {/* Animated background circles */}
       <div className="absolute top-20 left-0 w-80 h-80 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-      <div className="absolute bottom-0 right-20 w-80 h-80 bg-green-50 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute bottom-0 right-20 w-80 h-80 bg-card rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Intro text */}
@@ -45,12 +45,12 @@ export default function Protocol() {
             Никаких объяснений с нуля.
           </p>
           <p className="text-lg md:text-xl text-gray-700 mb-8">
-            Только <span className="text-green-600 font-bold">готовые связки, которые уже работают</span> — в кейсах, цифрах и схемах.
+            Только <span className="text-accent font-bold">готовые связки, которые уже работают</span> — в кейсах, цифрах и схемах.
           </p>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 fade-in">
-          Что такое <span className="text-green-600 shimmer-text">протокол</span>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground fade-in">
+          Что такое <span className="text-accent shimmer-text">протокол</span>
         </h2>
 
         <div className="space-y-12 max-w-4xl mx-auto">
@@ -61,17 +61,17 @@ export default function Protocol() {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="md:col-span-2 slide-in-left">
-                <div className="text-5xl font-bold text-green-600 number-animate">{step.number}</div>
+                <div className="text-5xl font-bold text-accent number-animate">{step.number}</div>
               </div>
 
-              <div className="md:col-span-10 card-premium border-l-4 border-green-500 hover-lift glow-pulse">
-                <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-3">
+              <div className="md:col-span-10 card-premium border-l-4 border-accent hover-lift glow-pulse">
+                <h3 className="text-2xl md:text-3xl font-semibold text-foreground mb-3">
                   {step.title}
                 </h3>
                 <p className="text-gray-700 mb-4">{step.description}</p>
                 <ul className="space-y-2">
                   {step.items.map((item, idx) => (
-                    <li key={idx} className="flex gap-3 text-gray-600 stagger-item">
+                    <li key={idx} className="flex gap-3 text-muted stagger-item">
                       <span className="text-green-500 flex-shrink-0 font-bold">→</span>
                       <span>{item}</span>
                     </li>

@@ -1,6 +1,6 @@
 export default function Speaker() {
   return (
-    <section className="py-20 md:py-32 bg-white relative overflow-hidden">
+    <section className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* VISIBLE Animated background circles */}
       <div 
         className="absolute top-0 right-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
@@ -17,12 +17,12 @@ export default function Speaker() {
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 
-          className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+          className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground"
           style={{
             animation: 'fadeInDown 0.8s ease-out'
           }}
         >
-          <span className="text-green-600">Спикер</span>
+          <span className="text-accent">Спикер</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
@@ -46,7 +46,7 @@ export default function Speaker() {
           {/* Info */}
           <div>
             <h3 
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-3"
+              className="text-3xl md:text-4xl font-bold text-foreground mb-3"
               style={{
                 animation: 'fadeInUp 0.8s ease-out'
               }}
@@ -54,7 +54,7 @@ export default function Speaker() {
               Майя Галицкая
             </h3>
             <p 
-              className="text-lg font-semibold text-green-600 mb-6"
+              className="text-lg font-semibold text-accent mb-6"
               style={{
                 animation: 'fadeInUp 0.8s ease-out 0.1s both'
               }}
@@ -79,8 +79,8 @@ export default function Speaker() {
                     animation: `fadeInUp 0.6s ease-out ${0.08 * idx + 0.2}s both`
                   }}
                 >
-                  <span className="text-green-600 font-bold flex-shrink-0">→</span>
-                  <span className="text-gray-700"><span className="font-bold text-green-600">{item.text}</span> {item.desc}</span>
+                  <span className="text-accent font-bold flex-shrink-0">→</span>
+                  <span className="text-gray-700"><span className="font-bold text-accent">{item.text}</span> {item.desc}</span>
                 </div>
               ))}
             </div>
@@ -98,14 +98,14 @@ export default function Speaker() {
               ].map((stat, idx) => (
                 <div 
                   key={idx}
-                  className="p-4 border-2 border-green-200 bg-green-50 rounded hover:shadow-lg transition-all"
+                  className="p-4 border-2 border-green-200 bg-card rounded hover:shadow-lg transition-all"
                   style={{
                     boxShadow: '0 0 15px rgba(34, 197, 94, 0.1)',
                     animation: `bounceIn 0.8s ease-out ${0.1 * idx + 0.7}s both`
                   }}
                 >
                   <div className="text-2xl font-bold text-green-700">{stat.value}</div>
-                  <div className="text-xs text-gray-600">{stat.label}</div>
+                  <div className="text-xs text-muted">{stat.label}</div>
                 </div>
               ))}
             </div>

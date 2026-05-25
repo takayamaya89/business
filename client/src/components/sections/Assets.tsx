@@ -27,19 +27,19 @@ export default function Assets() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-white section-bg-animated relative">
+    <section className="py-20 md:py-32 bg-background section-bg-animated relative">
       {/* Animated background */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-0 w-96 h-96 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-green-50 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-card rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-900 fade-in">
-          <span className="text-green-600 shimmer-text">Активы</span>, не слайды
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground fade-in">
+          <span className="text-accent shimmer-text">Активы</span>, не слайды
         </h2>
 
-        <p className="text-center text-lg text-gray-600 max-w-2xl mx-auto mb-12 fade-in-up">
+        <p className="text-center text-lg text-muted max-w-2xl mx-auto mb-12 fade-in-up">
           Не записи, не «вдохновение», не «знания». <span className="highlight-green">Готовые рабочие файлы и шаблоны</span>, которые можно применить в тот же вечер.
         </p>
 
@@ -47,13 +47,13 @@ export default function Assets() {
           {assets.map((asset, index) => (
             <div 
               key={index} 
-              className="card-premium hover-lift border-t-4 border-green-500 card-entrance glow-pulse"
+              className="card-premium hover-lift border-t-4 border-accent card-entrance glow-pulse"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-lg font-semibold text-foreground mb-2">
                 {asset.title}
               </h3>
-              <p className="text-gray-600">
+              <p className="text-muted">
                 {asset.description}
               </p>
             </div>

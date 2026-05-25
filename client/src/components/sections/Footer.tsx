@@ -20,7 +20,7 @@ export default function Footer() {
                 Воркшоп «Протокол внедрения ИИ в бизнес»
               </p>
               <p className="text-gray-400 mb-4">
-                16 мая 2025 · Офлайн · 8 часов (10:00-19:00, с перерывом)
+                6 июня 2025 · Офлайн · 8 часов (10:00-19:00, с перерывом)
               </p>
               <p className="text-sm text-gray-500 italic">
                 Инструменты меняются. Система — работает всегда.
@@ -139,7 +139,7 @@ export default function Footer() {
             <p className="text-xs text-gray-500 mb-2">
               © 2025 Reactor Club & Майя Галицкая. Все права защищены.
             </p>
-            <p className="text-xs text-gray-600">
+            <p className="text-xs text-muted">
               Воркшоп проводится в соответствии с действующим законодательством Российской Федерации.
             </p>
           </div>

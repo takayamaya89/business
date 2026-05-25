@@ -7,7 +7,7 @@ export default function Pricing() {
   };
 
   return (
-    <section id="pricing" className="py-20 md:py-32 bg-green-50 relative overflow-hidden">
+    <section id="pricing" className="py-20 md:py-32 bg-card relative overflow-hidden">
       {/* VISIBLE Animated background circles - LARGE and OBVIOUS */}
       <div 
         className="absolute top-0 left-0 w-96 h-96 bg-green-300 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
@@ -24,26 +24,26 @@ export default function Pricing() {
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 
-          className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+          className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground"
           style={{
             animation: 'fadeInDown 0.8s ease-out'
           }}
         >
-          <span className="text-green-600">Инвестиция</span> в систему
+          <span className="text-accent">Инвестиция</span> в систему
         </h2>
 
         <div 
-          className="max-w-2xl mx-auto p-8 md:p-12 bg-white border-2 border-green-500 rounded-lg shadow-lg"
+          className="max-w-2xl mx-auto p-8 md:p-12 bg-background border-2 border-accent rounded-lg shadow-lg"
           style={{
             boxShadow: '0 0 30px rgba(34, 197, 94, 0.2)',
             animation: 'bounceIn 0.8s ease-out 0.2s both'
           }}
         >
           <div className="text-center mb-8">
-            <div className="text-6xl md:text-7xl font-bold text-green-600 mb-4">
+            <div className="text-6xl md:text-7xl font-bold text-accent mb-4">
               20 000 ₽
             </div>
-            <div className="text-sm text-gray-600 font-semibold mb-6">
+            <div className="text-sm text-muted font-semibold mb-6">
               один раз.
             </div>
             
@@ -77,7 +77,7 @@ export default function Pricing() {
                   animation: `fadeInUp 0.6s ease-out ${0.08 * idx + 0.3}s both`
                 }}
               >
-                <span className="text-green-600 font-bold text-lg">✓</span>
+                <span className="text-accent font-bold text-lg">✓</span>
                 <span className="text-gray-700">{item}</span>
               </div>
             ))}
@@ -89,13 +89,13 @@ export default function Pricing() {
             href="https://course.takayamaya.ru/business"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-full text-center py-4 px-6 bg-green-600 text-white font-bold text-lg rounded hover:bg-green-700 transition-all"
+            className="inline-block w-full text-center py-4 px-6 bg-accent text-white font-bold text-lg rounded hover:bg-green-700 transition-all"
             style={{
               boxShadow: '0 0 20px rgba(34, 197, 94, 0.3)',
               animation: 'bounceIn 0.8s ease-out 1s both'
             }}
           >
-            Занять место на 16 мая →
+            Занять место на 6 июня →
           </a>
         </div>
       </div>

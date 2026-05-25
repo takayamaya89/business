@@ -21,7 +21,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-white relative overflow-hidden">
+    <section className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* VISIBLE Animated background circles */}
       <div 
         className="absolute top-0 left-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
@@ -38,28 +38,28 @@ export default function Testimonials() {
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 
-          className="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-900"
+          className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground"
           style={{
             animation: 'fadeInDown 0.8s ease-out'
           }}
         >
-          <span className="text-green-600">Результаты</span> предпринимателей
+          <span className="text-accent">Результаты</span> предпринимателей
         </h2>
 
         <p 
-          className="text-center text-lg text-gray-600 max-w-2xl mx-auto mb-16"
+          className="text-center text-lg text-muted max-w-2xl mx-auto mb-16"
           style={{
             animation: 'fadeInUp 0.8s ease-out 0.2s both'
           }}
         >
-          Не обещания. <span className="font-bold text-green-600">Реальные цифры</span> от предпринимателей, которые внедрили протокол.
+          Не обещания. <span className="font-bold text-accent">Реальные цифры</span> от предпринимателей, которые внедрили протокол.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white border-t-4 border-green-500 rounded-lg p-6 shadow-sm hover:shadow-lg transition-all"
+              className="bg-background border-t-4 border-accent rounded-lg p-6 shadow-sm hover:shadow-lg transition-all"
               style={{
                 boxShadow: '0 0 15px rgba(34, 197, 94, 0.1)',
                 animation: `bounceIn 0.8s ease-out ${0.1 * index}s both`
@@ -91,8 +91,8 @@ export default function Testimonials() {
                   animation: `fadeInUp 0.6s ease-out ${0.1 * index + 0.3}s both`
                 }}
               >
-                <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                <div className="text-sm text-gray-600">{testimonial.role}</div>
+                <div className="font-semibold text-foreground">{testimonial.name}</div>
+                <div className="text-sm text-muted">{testimonial.role}</div>
               </div>
             </div>
           ))}
@@ -100,16 +100,16 @@ export default function Testimonials() {
 
         {/* Trust metrics */}
         <div 
-          className="max-w-3xl mx-auto bg-green-50 border border-green-200 rounded-lg p-8 text-center"
+          className="max-w-3xl mx-auto bg-card border border-green-200 rounded-lg p-8 text-center"
           style={{
             animation: 'fadeInUp 0.8s ease-out 0.4s both'
           }}
         >
           <p className="text-gray-700 mb-6">
-            <span className="font-bold text-lg text-green-600">200+</span> предпринимателей внедрили протокол
+            <span className="font-bold text-lg text-accent">200+</span> предпринимателей внедрили протокол
           </p>
           <p className="text-gray-700">
-            <span className="font-bold text-lg text-green-600">5B ₽+</span> совокупной выручки клиентов, которые используют систему
+            <span className="font-bold text-lg text-accent">5B ₽+</span> совокупной выручки клиентов, которые используют систему
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Format() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-green-50 section-bg-animated relative">
+    <section className="py-20 md:py-32 bg-card section-bg-animated relative">
       {/* Animated background */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 right-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
@@ -19,13 +19,13 @@ export default function Format() {
           {metrics.map((metric, index) => (
             <div 
               key={index} 
-              className="card-premium text-center hover-lift border-t-4 border-green-500 card-entrance glow-pulse"
+              className="card-premium text-center hover-lift border-t-4 border-accent card-entrance glow-pulse"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="text-5xl md:text-6xl font-bold text-green-600 mb-4 number-animate">
+              <div className="text-5xl md:text-6xl font-bold text-accent mb-4 number-animate">
                 {metric.number}
               </div>
-              <div className="text-sm text-gray-600 font-medium">
+              <div className="text-sm text-muted font-medium">
                 {metric.label}
               </div>
             </div>

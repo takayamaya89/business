@@ -1,6 +1,6 @@
 export default function Results() {
   return (
-    <section className="py-20 md:py-32 bg-white relative overflow-hidden">
+    <section className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* VISIBLE Animated background circles - LARGE and OBVIOUS */}
       <div 
         className="absolute top-0 right-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
@@ -17,12 +17,12 @@ export default function Results() {
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 
-          className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900"
+          className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground"
           style={{
             animation: 'fadeInDown 0.8s ease-out'
           }}
         >
-          <span className="text-green-600">Реальные кейсы</span> предпринимателей
+          <span className="text-accent">Реальные кейсы</span> предпринимателей
         </h2>
 
         {/* Main case study */}
@@ -37,13 +37,13 @@ export default function Results() {
               ].map((item, idx) => (
                 <div 
                   key={idx}
-                  className="border-l-4 border-green-600 pl-6 py-4 bg-white rounded shadow-sm hover:shadow-md transition-all"
+                  className="border-l-4 border-green-600 pl-6 py-4 bg-background rounded shadow-sm hover:shadow-md transition-all"
                   style={{
                     boxShadow: '0 0 15px rgba(34, 197, 94, 0.2)',
                     animation: `bounceIn 0.8s ease-out ${0.2 * idx}s both`
                   }}
                 >
-                  <div className="text-5xl md:text-6xl font-bold text-green-600 mb-2">
+                  <div className="text-5xl md:text-6xl font-bold text-accent mb-2">
                     {item.amount}
                   </div>
                   <div className="text-sm text-gray-500 font-semibold mb-2">{item.label}</div>
@@ -58,41 +58,41 @@ export default function Results() {
                 animation: 'slideInRight 0.8s ease-out'
               }}
             >
-              <div className="bg-white border-t-4 border-green-600 p-8 rounded-lg shadow-lg" style={{ boxShadow: '0 0 20px rgba(34, 197, 94, 0.2)' }}>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="bg-background border-t-4 border-green-600 p-8 rounded-lg shadow-lg" style={{ boxShadow: '0 0 20px rgba(34, 197, 94, 0.2)' }}>
+                <h3 className="text-2xl font-bold text-foreground mb-4">
                   Кейс: Банкротство физических лиц
                 </h3>
                 
                 <div className="space-y-4 text-gray-700">
                   <p>
-                    <span className="font-semibold text-gray-900">Проблема:</span> Юрист с хорошей репутацией, но клиентов не хватало. Реклама не работала, контент был скучный.
+                    <span className="font-semibold text-foreground">Проблема:</span> Юрист с хорошей репутацией, но клиентов не хватало. Реклама не работала, контент был скучный.
                   </p>
 
                   <p>
-                    <span className="font-semibold text-gray-900">Решение:</span> Построили <span className="text-green-600 font-bold">нейроворонку</span> для привлечения клиентов через соцсети.
+                    <span className="font-semibold text-foreground">Решение:</span> Построили <span className="text-accent font-bold">нейроворонку</span> для привлечения клиентов через соцсети.
                   </p>
 
                   <ul className="space-y-2 ml-4">
                     <li className="flex gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0">→</span>
+                      <span className="text-accent font-bold flex-shrink-0">→</span>
                       <span>Находит людей с проблемой банкротства</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0">→</span>
+                      <span className="text-accent font-bold flex-shrink-0">→</span>
                       <span>Прогревает их контентом 7–14 дней</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0">→</span>
+                      <span className="text-accent font-bold flex-shrink-0">→</span>
                       <span>Предлагает консультацию в нужный момент</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-green-600 font-bold flex-shrink-0">→</span>
+                      <span className="text-accent font-bold flex-shrink-0">→</span>
                       <span>Закрывает сделку автоматически</span>
                     </li>
                   </ul>
 
-                  <p className="pt-4 border-t border-gray-200">
-                    <span className="font-semibold text-green-600">Результат:</span> За месяц получил клиентов на <span className="text-green-600 font-bold">5 млн рублей</span>.
+                  <p className="pt-4 border-t border-border">
+                    <span className="font-semibold text-accent">Результат:</span> За месяц получил клиентов на <span className="text-accent font-bold">5 млн рублей</span>.
                   </p>
                 </div>
               </div>
@@ -104,14 +104,14 @@ export default function Results() {
 
         {/* Key takeaway */}
         <div 
-          className="bg-green-50 border-l-4 border-green-600 p-8 md:p-12 max-w-3xl mx-auto rounded-lg"
+          className="bg-card border-l-4 border-green-600 p-8 md:p-12 max-w-3xl mx-auto rounded-lg"
           style={{
             boxShadow: 'inset 0 0 20px rgba(34, 197, 94, 0.1)',
             animation: 'fadeInUp 1s ease-out 0.6s both'
           }}
         >
-          <p className="text-lg md:text-xl font-semibold text-center text-gray-900 leading-relaxed">
-            Это не инфопродукты. Это <span className="text-green-600 font-bold">реальные бизнесы</span> — юристы, магазины, консультанты. Люди, которые <span className="text-green-600 font-bold">зарабатывают деньги</span>.
+          <p className="text-lg md:text-xl font-semibold text-center text-foreground leading-relaxed">
+            Это не инфопродукты. Это <span className="text-accent font-bold">реальные бизнесы</span> — юристы, магазины, консультанты. Люди, которые <span className="text-accent font-bold">зарабатывают деньги</span>.
           </p>
         </div>
       </div>
