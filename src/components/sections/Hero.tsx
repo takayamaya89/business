@@ -126,7 +126,7 @@ export default function Hero() {
             }}
           >
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663142814497/Gf8jYSBvKjeB3PqJpdkLs8/DSCF8181-2-nobg_89841280.png"
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663142814497/rRZZKgPLjdZEdYLG.png"
               alt="Майя Галицкая"
               className="max-w-sm md:max-w-md w-full h-auto drop-shadow-2xl"
               style={{
