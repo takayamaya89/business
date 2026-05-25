@@ -30,7 +30,7 @@ export default function Assets() {
     <section className="py-20 md:py-32 bg-background section-bg-animated relative">
       {/* Animated background */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-card rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
 
@@ -40,7 +40,7 @@ export default function Assets() {
         </h2>
 
         <p className="text-center text-lg text-muted max-w-2xl mx-auto mb-12 fade-in-up">
-          Не записи, не «вдохновение», не «знания». <span className="highlight-green">Готовые рабочие файлы и шаблоны</span>, которые можно применить в тот же вечер.
+          Не записи, не «вдохновение», не «знания». <span className="highlight-red">Готовые рабочие файлы и шаблоны</span>, которые можно применить в тот же вечер.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

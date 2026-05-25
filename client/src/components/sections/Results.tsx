@@ -3,13 +3,13 @@ export default function Results() {
     <section className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* VISIBLE Animated background circles - LARGE and OBVIOUS */}
       <div 
-        className="absolute top-0 right-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
         }}
       ></div>
       <div 
-        className="absolute bottom-0 left-0 w-96 h-96 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute bottom-0 left-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 2s'
         }}
@@ -37,7 +37,7 @@ export default function Results() {
               ].map((item, idx) => (
                 <div 
                   key={idx}
-                  className="border-l-4 border-green-600 pl-6 py-4 bg-background rounded shadow-sm hover:shadow-md transition-all"
+                  className="border-l-4 border-accent pl-6 py-4 bg-background rounded shadow-sm hover:shadow-md transition-all"
                   style={{
                     boxShadow: '0 0 15px rgba(34, 197, 94, 0.2)',
                     animation: `bounceIn 0.8s ease-out ${0.2 * idx}s both`
@@ -58,7 +58,7 @@ export default function Results() {
                 animation: 'slideInRight 0.8s ease-out'
               }}
             >
-              <div className="bg-background border-t-4 border-green-600 p-8 rounded-lg shadow-lg" style={{ boxShadow: '0 0 20px rgba(34, 197, 94, 0.2)' }}>
+              <div className="bg-background border-t-4 border-accent p-8 rounded-lg shadow-lg" style={{ boxShadow: '0 0 20px rgba(34, 197, 94, 0.2)' }}>
                 <h3 className="text-2xl font-bold text-foreground mb-4">
                   Кейс: Банкротство физических лиц
                 </h3>
@@ -104,7 +104,7 @@ export default function Results() {
 
         {/* Key takeaway */}
         <div 
-          className="bg-card border-l-4 border-green-600 p-8 md:p-12 max-w-3xl mx-auto rounded-lg"
+          className="bg-card border-l-4 border-accent p-8 md:p-12 max-w-3xl mx-auto rounded-lg"
           style={{
             boxShadow: 'inset 0 0 20px rgba(34, 197, 94, 0.1)',
             animation: 'fadeInUp 1s ease-out 0.6s both'

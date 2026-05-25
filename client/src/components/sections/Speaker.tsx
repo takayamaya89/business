@@ -3,13 +3,13 @@ export default function Speaker() {
     <section className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* VISIBLE Animated background circles */}
       <div 
-        className="absolute top-0 right-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
         }}
       ></div>
       <div 
-        className="absolute bottom-0 left-0 w-96 h-96 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute bottom-0 left-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 2s'
         }}
@@ -34,11 +34,11 @@ export default function Speaker() {
             }}
           >
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663142814497/Gf8jYSBvKjeB3PqJpdkLs8/DSCF8094-nobg_c1a04151.png" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663142814497/Gf8jYSBvKjeB3PqJpdkLs8/speaker-red-jacket-DMxXecTtLqjf2RhGXYWxwa.png" 
               alt="Майя Галицкая" 
               className="max-w-sm md:max-w-md w-full h-auto drop-shadow-2xl"
               style={{
-                filter: 'drop-shadow(0 20px 40px rgba(34, 197, 94, 0.15))'
+                filter: 'drop-shadow(0 20px 40px rgba(226, 27, 45, 0.15))'
               }}
             />
           </div>
@@ -80,7 +80,7 @@ export default function Speaker() {
                   }}
                 >
                   <span className="text-accent font-bold flex-shrink-0">→</span>
-                  <span className="text-gray-700"><span className="font-bold text-accent">{item.text}</span> {item.desc}</span>
+                  <span className="text-foreground"><span className="font-bold text-accent">{item.text}</span> {item.desc}</span>
                 </div>
               ))}
             </div>
@@ -98,13 +98,13 @@ export default function Speaker() {
               ].map((stat, idx) => (
                 <div 
                   key={idx}
-                  className="p-4 border-2 border-green-200 bg-card rounded hover:shadow-lg transition-all"
+                  className="p-4 border-2 border-accent/20 bg-card rounded hover:shadow-lg transition-all"
                   style={{
-                    boxShadow: '0 0 15px rgba(34, 197, 94, 0.1)',
+                    boxShadow: '0 0 15px rgba(226, 27, 45, 0.1)',
                     animation: `bounceIn 0.8s ease-out ${0.1 * idx + 0.7}s both`
                   }}
                 >
-                  <div className="text-2xl font-bold text-green-700">{stat.value}</div>
+                  <div className="text-2xl font-bold text-accent">{stat.value}</div>
                   <div className="text-xs text-muted">{stat.label}</div>
                 </div>
               ))}

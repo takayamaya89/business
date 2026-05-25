@@ -35,7 +35,7 @@ export default function Protocol() {
   return (
     <section id="protocol" className="py-20 md:py-32 bg-background section-bg-animated relative">
       {/* Animated background circles */}
-      <div className="absolute top-20 left-0 w-80 h-80 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+      <div className="absolute top-20 left-0 w-80 h-80 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
       <div className="absolute bottom-0 right-20 w-80 h-80 bg-card rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
 
       <div className="container mx-auto px-4 relative z-10">

@@ -19,7 +19,7 @@ export default function FloatingElements() {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 8, repeat: Infinity, repeatType: 'loop' }}
-          className="text-green-600"
+          className="text-accent"
           style={{ textShadow: '0 0 20px rgba(34, 197, 94, 0.8)' }}
         >
           🤖
@@ -43,7 +43,7 @@ export default function FloatingElements() {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 8, repeat: Infinity, repeatType: 'loop' }}
-          className="text-green-600"
+          className="text-accent"
           style={{ textShadow: '0 0 20px rgba(34, 197, 94, 0.8)' }}
         >
           ⚡
@@ -67,7 +67,7 @@ export default function FloatingElements() {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 8, repeat: Infinity, repeatType: 'loop' }}
-          className="text-green-600"
+          className="text-accent"
           style={{ textShadow: '0 0 20px rgba(34, 197, 94, 0.8)' }}
         >
           {'</>'}
@@ -91,7 +91,7 @@ export default function FloatingElements() {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 8, repeat: Infinity, repeatType: 'loop' }}
-          className="text-green-600"
+          className="text-accent"
           style={{ textShadow: '0 0 20px rgba(34, 197, 94, 0.8)' }}
         >
           ⚙️
@@ -115,7 +115,7 @@ export default function FloatingElements() {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 8, repeat: Infinity, repeatType: 'loop' }}
-          className="text-green-600"
+          className="text-accent"
           style={{ textShadow: '0 0 20px rgba(34, 197, 94, 0.8)' }}
         >
           📊
@@ -124,7 +124,7 @@ export default function FloatingElements() {
 
       {/* Pulsing circles */}
       <motion.div
-        className="absolute top-1/2 right-10 w-32 h-32 border-2 border-green-600 rounded-full"
+        className="absolute top-1/2 right-10 w-32 h-32 border-2 border-accent rounded-full"
         animate={{
           scale: [1, 1.1, 1],
           opacity: [0.6, 1, 0.6],
@@ -138,7 +138,7 @@ export default function FloatingElements() {
       />
 
       <motion.div
-        className="absolute bottom-1/4 left-10 w-24 h-24 border-2 border-green-600 rounded-full"
+        className="absolute bottom-1/4 left-10 w-24 h-24 border-2 border-accent rounded-full"
         animate={{
           scale: [1, 1.1, 1],
           opacity: [0.6, 1, 0.6],
@@ -154,7 +154,7 @@ export default function FloatingElements() {
 
       {/* Floating code snippets */}
       <motion.div
-        className="absolute top-1/4 right-1/3 px-4 py-2 bg-black /50 border border-green-600 rounded text-sm font-mono text-green-400"
+        className="absolute top-1/4 right-1/3 px-4 py-2 bg-black /50 border border-accent rounded text-sm font-mono text-accent"
         animate={{
           y: [0, -20, 0],
           x: [0, 10, -10, 0],
@@ -171,7 +171,7 @@ export default function FloatingElements() {
       </motion.div>
 
       <motion.div
-        className="absolute bottom-1/3 right-1/4 px-4 py-2 bg-black /50 border border-green-600 rounded text-sm font-mono text-green-400"
+        className="absolute bottom-1/3 right-1/4 px-4 py-2 bg-black /50 border border-accent rounded text-sm font-mono text-accent"
         animate={{
           y: [0, -20, 0],
           x: [0, 10, -10, 0],
@@ -188,7 +188,7 @@ export default function FloatingElements() {
       </motion.div>
 
       <motion.div
-        className="absolute top-2/3 left-1/4 px-4 py-2 bg-black /50 border border-green-600 rounded text-sm font-mono text-green-400"
+        className="absolute top-2/3 left-1/4 px-4 py-2 bg-black /50 border border-accent rounded text-sm font-mono text-accent"
         animate={{
           y: [0, -20, 0],
           x: [0, 10, -10, 0],

@@ -24,13 +24,13 @@ export default function Testimonials() {
     <section className="py-20 md:py-32 bg-background relative overflow-hidden">
       {/* VISIBLE Animated background circles */}
       <div 
-        className="absolute top-0 left-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute top-0 left-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
         }}
       ></div>
       <div 
-        className="absolute bottom-0 right-0 w-96 h-96 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 2s'
         }}
@@ -67,7 +67,7 @@ export default function Testimonials() {
             >
               {/* Result badge */}
               <div 
-                className="inline-block mb-4 px-3 py-1 bg-green-100 border border-green-300 text-xs font-bold text-green-700 rounded"
+                className="inline-block mb-4 px-3 py-1 bg-accent/10 border border-green-300 text-xs font-bold text-accent rounded"
                 style={{
                   animation: `fadeInUp 0.6s ease-out ${0.1 * index + 0.1}s both`
                 }}

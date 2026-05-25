@@ -12,8 +12,8 @@ export default function Pain() {
     <section className="py-20 md:py-32 bg-card section-bg-animated relative">
       {/* Animated background gradient */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -41,7 +41,7 @@ export default function Pain() {
         </div>
 
         {/* "For whom" block */}
-        <div className="bg-background border-l-4 border-green-600 p-8 md:p-12 max-w-3xl mx-auto rounded-lg fade-in-up hover-lift border-glow mb-12" style={{ animationDelay: '0.3s' }}>
+        <div className="bg-background border-l-4 border-accent p-8 md:p-12 max-w-3xl mx-auto rounded-lg fade-in-up hover-lift border-glow mb-12" style={{ animationDelay: '0.3s' }}>
           <h3 className="text-2xl font-bold text-foreground mb-6">Приходи, если:</h3>
           <ul className="space-y-4 text-lg text-gray-700">
             <li className="flex items-start">
@@ -60,9 +60,9 @@ export default function Pain() {
         </div>
 
         {/* Quote block */}
-        <div className="bg-background border-l-4 border-green-600 p-8 md:p-12 max-w-3xl mx-auto rounded-lg fade-in-up hover-lift border-glow" style={{ animationDelay: '0.5s' }}>
+        <div className="bg-background border-l-4 border-accent p-8 md:p-12 max-w-3xl mx-auto rounded-lg fade-in-up hover-lift border-glow" style={{ animationDelay: '0.5s' }}>
           <p className="text-xl md:text-2xl font-semibold text-center text-foreground leading-relaxed">
-            Большинство курсов учат пользоваться <span className="highlight-green">инструментами</span>. Это как учить человека дрелью и болгаркой — и не объяснить, как <span className="highlight-green">построить дом</span>. Инструменты знает. Дом не появится никогда.
+            Большинство курсов учат пользоваться <span className="highlight-red">инструментами</span>. Это как учить человека дрелью и болгаркой — и не объяснить, как <span className="highlight-red">построить дом</span>. Инструменты знает. Дом не появится никогда.
           </p>
         </div>
       </div>

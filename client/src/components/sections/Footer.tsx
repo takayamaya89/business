@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-16 md:py-20 relative overflow-hidden">
       {/* Background animation */}
       <div 
-        className="absolute top-0 left-0 w-96 h-96 bg-green-900 rounded-full mix-blend-multiply filter blur-3xl opacity-20"
+        className="absolute top-0 left-0 w-96 h-96 bg-accent/20 rounded-full mix-blend-multiply filter blur-3xl opacity-20"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
         }}
@@ -61,7 +61,7 @@ export default function Footer() {
                 <li>
                   <a 
                     href="#privacy-policy" 
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     Политика конфиденциальности
                   </a>
@@ -69,7 +69,7 @@ export default function Footer() {
                 <li>
                   <a 
                     href="#offer-agreement" 
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     Договор оферты
                   </a>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <li>
                   <a 
                     href="#terms" 
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     Условия использования
                   </a>
@@ -91,7 +91,7 @@ export default function Footer() {
                 <li>
                   <a 
                     href="mailto:mayayellow@mail.ru" 
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     mayayellow@mail.ru
                   </a>
@@ -99,7 +99,7 @@ export default function Footer() {
                 <li>
                   <a 
                     href="tel:+79614335522" 
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     +7 (961) 433-55-22
                   </a>
@@ -115,7 +115,7 @@ export default function Footer() {
                     href="https://www.instagram.com/takaya_maya/" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     Instagram
                   </a>
@@ -125,7 +125,7 @@ export default function Footer() {
                     href="https://t.me/mayaneiro" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-accent transition-colors text-sm"
                   >
                     Telegram
                   </a>

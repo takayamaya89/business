@@ -16,7 +16,7 @@ export default function Pricing() {
         }}
       ></div>
       <div 
-        className="absolute bottom-0 right-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
+        className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70"
         style={{
           animation: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 2s'
         }}
