@@ -45,7 +45,7 @@ export default function Hero() {
                 animation: 'fadeInDown 0.8s ease-out 0.1s both'
               }}
             >
-              REACTOR CLUB × МАЙЯ ГАЛИЦКАЯ · ОНЛАЙН
+              REACTOR CLUB × МАЙЯ ГАЛИЦКАЯ · ОФЛАЙН
             </div>
 
             {/* Main heading - NEW POSITIONING */}
@@ -100,7 +100,7 @@ export default function Hero() {
             >
               {[
                 { label: 'Дата', value: '6 июня' },
-                { label: 'Формат', value: 'Онлайн · практическая работа' },
+                { label: 'Формат', value: 'Офлайн · практическая работа' },
                 { label: 'Для кого', value: 'Предприниматели и руководители' },
                 { label: 'Результат', value: 'Рабочая система' }
               ].map((item, idx) => (
