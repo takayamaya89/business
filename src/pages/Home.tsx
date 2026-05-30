@@ -6,6 +6,7 @@ import Pain from "@/components/sections/Pain";
 import AboutEvent from "@/components/sections/AboutEvent";
 import Protocol from "@/components/sections/Protocol";
 import Speaker from "@/components/sections/Speaker";
+import Venue from "@/components/sections/Venue";
 import Results from "@/components/sections/Results";
 import Testimonials from "@/components/sections/Testimonials";
 import Assets from "@/components/sections/Assets";
@@ -26,6 +27,7 @@ export default function Home() {
         <AboutEvent />
         <Protocol />
         <Speaker />
+        <Venue />
         <Results />
         <Testimonials />
         <Assets />
