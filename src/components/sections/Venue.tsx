@@ -93,7 +93,7 @@ export default function Venue() {
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="text-accent">→</span>
-                        <span>Кофе-брейк и обед</span>
+                        <span>Кофе, чай и вода</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="text-accent">→</span>
@@ -115,7 +115,7 @@ export default function Venue() {
               {[
                 { icon: '🏨', title: 'Премиальный зал', desc: 'Просторное помещение с климат-контролем' },
                 { icon: '💺', title: 'Эргономичные места', desc: 'Удобные кресла для 8-часовой работы' },
-                { icon: '🍽️', title: 'Полный сервис', desc: 'Кофе, чай, закуски и обед включены' }
+                { icon: '☕', title: 'Напитки и вода', desc: 'Кофе, чай и вода на протяжении дня' },
               ].map((item, idx) => (
                 <div 
                   key={idx}
