@@ -55,7 +55,7 @@ export default function Hero() {
               }}
             >
               <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-6">
-                Практический мастер-класс для предпринимателей и руководителей: создаём промпты, ИИ-ассистентов, агентов и ботов, которые помогают автоматизировать рабочие процессы, продажи, клиентские коммуникации и работу команды.
+                Практический мастер-класс для предпринимателей и руководителей: создаём <span className="text-red-500 font-black">промпты</span>, <span className="text-blue-500 font-black">ИИ-ассистентов</span>, <span className="text-purple-500 font-black">агентов</span> и <span className="text-green-500 font-black">ботов</span>, которые помогают автоматизировать <span className="text-orange-500 font-black">рабочие процессы</span>, <span className="text-pink-500 font-black">продажи</span>, <span className="text-cyan-500 font-black">клиентские коммуникации</span> и работу команды.
               </h1>
             </div>
 
@@ -66,7 +66,7 @@ export default function Hero() {
                 animation: 'fadeInUp 1s ease-out 0.4s both'
               }}
             >
-              Вы уйдёте не с конспектом, а с понятной системой: какие процессы автоматизировать, каких ассистентов создать, как использовать Claude, как проектировать ИИ-агентов и как применять ИИ-ботов для Авито, MAX и маркетплейсов.
+              Вы уйдёте не с конспектом, а с <span className="text-accent font-bold">понятной системой</span>: какие <span className="text-red-500 font-bold">процессы автоматизировать</span>, каких <span className="text-blue-500 font-bold">ассистентов создать</span>, как использовать <span className="text-purple-500 font-bold">Claude</span>, как <span className="text-green-500 font-bold">проектировать ИИ-агентов</span> и как применять <span className="text-orange-500 font-bold">ИИ-ботов</span> для <span className="text-pink-500 font-bold">Авито, MAX и маркетплейсов</span>.
             </p>
 
             {/* CTA Button */}
