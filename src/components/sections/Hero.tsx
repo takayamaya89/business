@@ -55,8 +55,30 @@ export default function Hero() {
               }}
             >
               <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-6">
-                Практический мастер-класс для предпринимателей и руководителей: создаём <span className="text-red-500 font-black">промпты</span>, <span className="text-blue-500 font-black">ИИ-ассистентов</span>, <span className="text-purple-500 font-black">агентов</span> и <span className="text-green-500 font-black">ботов</span>, которые помогают автоматизировать <span className="text-orange-500 font-black">рабочие процессы</span>, <span className="text-pink-500 font-black">продажи</span>, <span className="text-cyan-500 font-black">клиентские коммуникации</span> и работу команды.
+                Практический мастер-класс для предпринимателей и руководителей
               </h1>
+              <div className="space-y-3 mb-6">
+                <div className="flex items-start gap-3">
+                  <span className="text-accent font-black text-xl mt-1">→</span>
+                  <span className="text-lg text-foreground">Создаём <span className="text-accent font-black">промпты</span> для бизнес-задач</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-accent font-black text-xl mt-1">→</span>
+                  <span className="text-lg text-foreground">Создаём <span className="text-accent font-black">ИИ-ассистентов</span> под функции бизнеса</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-accent font-black text-xl mt-1">→</span>
+                  <span className="text-lg text-foreground">Проектируем <span className="text-accent font-black">ИИ-агентов</span> для процессов</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-accent font-black text-xl mt-1">→</span>
+                  <span className="text-lg text-foreground">Создаём <span className="text-accent font-black">ИИ-ботов</span> для Авито, MAX и маркетплейсов</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-accent font-black text-xl mt-1">→</span>
+                  <span className="text-lg text-foreground">Автоматизируем <span className="text-accent font-black">рабочие процессы, продажи и коммуникации</span></span>
+                </div>
+              </div>
             </div>
 
             {/* Subheading - NEW */}
@@ -66,7 +88,7 @@ export default function Hero() {
                 animation: 'fadeInUp 1s ease-out 0.4s both'
               }}
             >
-              Вы уйдёте не с конспектом, а с <span className="text-accent font-bold">понятной системой</span>: какие <span className="text-red-500 font-bold">процессы автоматизировать</span>, каких <span className="text-blue-500 font-bold">ассистентов создать</span>, как использовать <span className="text-purple-500 font-bold">Claude</span>, как <span className="text-green-500 font-bold">проектировать ИИ-агентов</span> и как применять <span className="text-orange-500 font-bold">ИИ-ботов</span> для <span className="text-pink-500 font-bold">Авито, MAX и маркетплейсов</span>.
+              Вы уйдёте не с конспектом, а с <span className="text-accent font-bold">понятной системой</span>: какие процессы автоматизировать, каких ассистентов создать, как использовать Claude, как проектировать ИИ-агентов и как применять ИИ-ботов для Авито, MAX и маркетплейсов.
             </p>
 
             {/* CTA Button */}
